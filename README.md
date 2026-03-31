@@ -1,63 +1,78 @@
-# 📚 Library Management System (DSA Project)
+# 📚 Library Management System  
 
-A complete **Data Structures based Library Management System** built in
-Java.\
-This project demonstrates the practical implementation of multiple data
-structures integrated into a real-world application.
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![DSA](https://img.shields.io/badge/Concepts-Data%20Structures-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Project](https://img.shields.io/badge/Type-Academic-purple)
+
+---
+
+## ✨ Overview
+A **feature-rich Library Management System** built using Java, integrating multiple **Data Structures concepts** into a real-world application.
+
+---
 
 ## 🚀 Features
+- 📖 Book Management (Add, Display, Delete)
+- 🔍 Search (Title & ID using Hashing)
+- 📥 Issue & Return System
+- 📊 Track Book Availability
+- 🔄 Sorting (Bubble Sort)
+- 🧵 Stack (Recently Issued Books)
+- 📬 Queue (Normal Requests)
+- ⭐ Priority Queue (VIP Requests)
+- 💾 File Handling (Persistent Storage)
 
--   Add, Display, Search Books
--   Search by Title (Linear Search)
--   Search by ID (Hashing)
--   Issue & Return Books
--   Track Available Copies
--   Delete Books
--   Sort Books (Bubble Sort)
--   Count Total Books
--   Track Recently Issued Books (Stack - LIFO)
--   Handle Issue Requests (Queue - FIFO)
--   VIP Requests Handling (Priority Queue)
--   File Handling (Persistent Storage using FileReader & FileWriter)
+---
 
 ## 🧠 Data Structures Used
+- Linked List
+- Stack (LIFO)
+- Queue (FIFO)
+- Priority Queue
+- Hashing
+- Sorting Algorithms
+- File Handling
 
--   Linked List
--   Stack
--   Queue
--   Priority Queue
--   Hashing
--   Sorting
--   File Handling
+---
 
 ## 📁 Project Structure
+├── BookNode.java
+├── BookList.java
+├── Stack.java
+├── IssueQueue.java
+├── PriorityQueueDS.java
+├── LibraryManagementSystem.java
+└── books.txt
 
-dsaProject/ - BookNode.java - BookList.java - Stack.java -
-IssueQueue.java - PriorityQueueDS.java - LibraryManagementSystem.java -
-books.txt
+---
 
-## 📄 File Format (books.txt)
-
+## 📄 File Format
 BookID,Title,Author,TotalCopies,AvailableCopies
 
-Example: 101,Java Programming,James,5,5 102,DSA,Mark,3,2 103,Operating
-Systems,Galvin,4,4
+---
+
+---
 
 ## ▶️ How to Run
+1. Clone the repository  
+2. Open in IDE (Eclipse / IntelliJ / VS Code)  
+3. Ensure `books.txt` exists  
+4. Run `LibraryManagementSystem.java`
 
-1.  Clone the repository
-2.  Open in IDE
-3.  Ensure books.txt exists
-4.  Run LibraryManagementSystem.java
+---
 
-## 🔄 How It Works
-
+## 🔄 Workflow
 File → Load → Linked List → Operations → Save → File
 
+---
+
+## 💡 Highlights
+✔ Real-world implementation of DSA  
+✔ Clean modular code  
+✔ Covers multiple core concepts in one project  
+
+---
+
 ## 👨‍💻 Author
-
-Junaid Baig
-
-## 🏆 Conclusion
-
-This project integrates core Data Structures into a functional system.
+**Junaid Baig**  
